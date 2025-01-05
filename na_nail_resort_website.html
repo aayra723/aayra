@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N.A. Nail Resort - Cooking Nails to Perfection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #dbe7ff;
+            color: #333;
+        }
+        header {
+            background-color: #fbcaca;
+            text-align: center;
+            padding: 20px;
+        }
+        header img {
+            max-width: 150px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 10px 0;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .cta {
+            background-color: #ffe2e2;
+            border: 2px solid #ffbcbc;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            display: inline-block;
+        }
+        .cta button {
+            background-color: #ff99a0;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .cta button:hover {
+            background-color: #ff7b84;
+        }
+        footer {
+            background-color: #fbcaca;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+        #booking-form {
+            background-color: #fff;
+            border: 2px solid #ffbcbc;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            text-align: left;
+        }
+        #booking-form input, #booking-form select, #booking-form button {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        #booking-form button {
+            background-color: #ff99a0;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        #booking-form button:hover {
+            background-color: #ff7b84;
+        }
+        .menu {
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 2px solid #ffbcbc;
+            border-radius: 10px;
+            text-align: left;
+            max-width: 800px;
+        }
+        .menu h2 {
+            color: #ff99a0;
+            margin-bottom: 20px;
+        }
+        .menu ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu ul li {
+            margin: 10px 0;
+        }
+        .service-image {
+            max-width: 100%;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/N.A Nail Resort Logo.png" alt="N.A. Nail Resort Logo">
+        <h1>N.A. Nail Resort</h1>
+        <p>Cooking Nails to Perfection</p>
+    </header>
+
+    <div class="container">
+        <div class="cta">
+            <h2>Welcome to N.A. Nail Resort</h2>
+            <p>Experience a tropical retreat while perfecting your nails.</p>
+            <button onclick="document.getElementById('booking-section').scrollIntoView({behavior: 'smooth'});">Book an Appointment</button>
+        </div>
+    </div>
+
+    <div class="container menu">
+        <h2>Our Services Menu</h2>
+        <ul>
+            <li><strong>Appetizers (Quick Fixes):</strong></li>
+            <ul>
+                <li><strong>Sunset Dip (Express Manicure):</strong> $20 - A speedy nail refresh with file, shape, and polish.</li>
+                <img src="images/sunset-dip.jpg" alt="Sunset Dip" class="service-image">
+                <li><strong>Color Splash (Nail Polish Change):</strong> $15 - A quick color update for a fresh look.</li>
+                <img src="images/color-splash.jpg" alt="Color Splash" class="service-image">
+                <li><strong>Beach Glow (Buff & Shine):</strong> $15 - Smooth and shiny nails for a natural finish.</li>
+                <img src="images/beach-glow.jpg" alt="Beach Glow" class="service-image">
+            </ul>
+            <li><strong>Main Course (Summer Resort Specials):</strong></li>
+            <ul>
+                <li><strong>Tropical Escape (Custom Nail Art):</strong> $20-$35 - Personalized nail art to match your unique vibe.</li>
+                <img src="images/tropical-escape.jpg" alt="Tropical Escape" class="service-image">
+                <li><strong>Sun-Kissed Bliss (Gel Manicure):</strong> $20 - Long-lasting gel polish with added cuticle care.</li>
+                <img src="images/sun-kissed-bliss.jpg" alt="Sun-Kissed Bliss" class="service-image">
+                <li><strong>Beachside Glam (Acrylic Full Set):</strong> $30-$40 - Flawless acrylic nails shaped to perfection.</li>
+                <img src="images/beachside-glam.jpg" alt="Beachside Glam" class="service-image">
+                <li><strong>Island Fusion (Mix & Match Nail Art):</strong> $20-$40 - A vibrant mix of colors and designs for a playful summer look.</li>
+                <img src="images/island-fusion.jpg" alt="Island Fusion" class="service-image">
+            </ul>
+            <li><strong>Side Dishes (Add-Ons):</strong></li>
+            <ul>
+                <li><strong>Sparkling Sprinkles (Nail Gems or Stickers):</strong> $5 - Add sparkle with rhinestones or stickers.</li>
+                <img src="images/sparkling-sprinkles.jpg" alt="Sparkling Sprinkles" class="service-image">
+                <li><strong>Instant Charm (Nail Stamping):</strong> $5 - Decorative designs stamped onto nails.</li>
+                <img src="images/instant-charm.jpg" alt="Instant Charm" class="service-image">
+                <li><strong>Finishing Touch (Matte or Glossy Topcoat):</strong> Free - Your choice of final finish.</li>
+                <img src="images/finishing-touch.jpg" alt="Finishing Touch" class="service-image">
+                <li><strong>Island Breeze (Hand Massage):</strong> $10 - Relaxing hand massage with a tropical lotion.</li>
+                <img src="images/island-breeze.jpg" alt="Island Breeze" class="service-image">
+            </ul>
+        </ul>
+    </div>
+
+    <div class="container" id="booking-section">
+        <h2>Book Your Appointment</h2>
+        <form id="booking-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" value="n.anailresort@gmail.com" readonly>
+
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Preferred Time</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="service">Service</label>
+            <select id="service" name="service" required>
+                <option value="manicure">Manicure</option>
+                <option value="pedicure">Pedicure</option>
+                <option value="nail-art">Nail Art</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 N.A. Nail Resort. All rights reserved.</p>
+    </footer>
+</body>
+</html>
